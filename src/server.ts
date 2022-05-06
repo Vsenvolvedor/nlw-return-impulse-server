@@ -2,6 +2,8 @@ import express from 'express'
 import cors from 'cors'
 import { routes } from './routes'
 
+// Servidor
+
 const app = express()
 
 app.use(cors())
